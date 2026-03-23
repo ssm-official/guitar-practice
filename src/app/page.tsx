@@ -8,6 +8,7 @@ import { BeatIndicator } from "@/components/BeatIndicator";
 import { Controls } from "@/components/Controls";
 import { PracticeTimer } from "@/components/PracticeTimer";
 import { Presets } from "@/components/Presets";
+import { Nav } from "@/components/Nav";
 
 export default function Home() {
   const {
@@ -74,6 +75,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center px-4 py-8 sm:py-16 gap-8 max-w-lg mx-auto">
+      <Nav />
       <h1 className="text-2xl font-bold text-white tracking-tight">Guitar Practice</h1>
 
       {/* Beat Indicator */}
